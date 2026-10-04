@@ -1,0 +1,17 @@
+{
+  "name": "rbi-note-reserve",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Indian 100-rupee note reserve hover widget and adjustable-speed loader.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
